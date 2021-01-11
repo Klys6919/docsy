@@ -1,4 +1,17 @@
 ---
 label: Blog posts
 hide_body: false
-fields: []
+fields:
+- name: fish_diseases
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Fish diseases
+  description: Fish live in water
