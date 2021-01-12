@@ -5,6 +5,11 @@ admin_path: ney/yuzo
 webhook_url: post_import
 sections:
 - type: directory
+  path: yuzo/football
+  label: Football
+  create: all
+  match: "**/*"
+- type: directory
   path: content
   label: Pages
   create: all
