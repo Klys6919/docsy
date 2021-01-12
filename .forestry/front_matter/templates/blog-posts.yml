@@ -15,5 +15,9 @@ fields:
       path: 
   label: Fish diseases
   description: Fish live in water
+- name: fish_in_water
+  type: boolean
+  label: Fish in water
+  hidden: false
 pages:
 - content/Fishlife.firstpost.md
