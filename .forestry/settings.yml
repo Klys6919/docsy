@@ -17,11 +17,11 @@ sections:
   new_doc_ext: firstpost.md
   templates:
   - blog-posts
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: ney/yuzo/uploads
+public_path: ney/yuzo/media
 front_matter_path: ''
-use_front_matter_path: false
-file_template: ":filename:"
+use_front_matter_path: 
+file_template: 'filename/:filename:'
 build:
   preview_env:
   - HUGO_ENV=staging
