@@ -15,3 +15,5 @@ fields:
       path: 
   label: Fish diseases
   description: Fish live in water
+pages:
+- content/Fishlife.firstpost.md
